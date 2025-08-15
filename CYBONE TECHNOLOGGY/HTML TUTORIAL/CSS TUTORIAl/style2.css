@@ -1,0 +1,29 @@
+.child{
+    width: 450px;
+    height: 450px;
+     border: 5px solid rgb(247, 14, 14);
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     image-resolution: 50px;
+     background-color: aliceblue;
+     /* background-image: url(./OIP.jpg); */
+}
+#parent {
+     width: 100%;
+    height: 600px;
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     gap: 50px;
+     
+     border: 2px solid red ;
+     background-image: url(./OIF.jpg);
+     background-size: 100%;
+    
+
+}
